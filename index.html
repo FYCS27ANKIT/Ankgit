@@ -16,20 +16,22 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
         <header id="header">
             <nav>
-                <h3 id = "logo">Pandey</h3>
+                <h3 id = "logo">PortFolio</h3>
                 <ul id="sidemenu">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-times" onclick="closem()">X</i>
+                    <i class="fas fa-times" onclick="closem()"></i>
                 </ul>
-                <i class="fas fa-bars" onclick="openm()">==</i>
+                <i class="fas fa-bars" onclick="openm()"></i>
             </nav>
         </header>
         <main>
@@ -42,7 +44,7 @@
                     <div class="col-md-8 col-xs-12">
                         <div class="headertext">
                         <h1>Hi, I am <strong><span style="color: red;">Ankit Pandey</span></strong></h1>
-                        <h4>A Web Developer from Nowhere</h4>
+                        <h4>A Web Developer from <br>Nowhere</h4>
                         <div class="button">
                             <a href="#"><button class="btn1">Download CV</button></a>
                             <a href="#"><button class="btn1">Linkedin</button></a>
@@ -56,13 +58,13 @@
                 <div
                     class="container"
                 >
-                    <h2><center>My Projects</center></h2><br><br>
+                    <h2><center>My Projects</center></h2><br>
                     <div
                         class="row justify-content-center align-items-center g-5"
                     >
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
                             <div class="card shadow bg-dark">
-                                <img class="card-img-top" src="Chirkut.jpg" alt="Title" / height="300px" width="25%">
+                                <img class="card-img-top rounded" src="Chirkut.jpg" alt="Title" / height="300px" width="25%">
                                 <div class="card-body">
                                     <h4 class="card-title">Project 1</h4>
                                     <p class="card-text">
@@ -72,9 +74,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
                             <div class="card shadow bg-dark">
-                                <img class="card-img-top" src="Chirkut.jpg" alt="Title" / height="300px" width="25%">
+                                <img class="card-img-top rounded" src="Chirkut.jpg" alt="Title" / height="300px" width="25%">
                                 <div class="card-body">
                                     <h4 class="card-title">Project 2</h4>
                                     <p class="card-text">
@@ -84,9 +86,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
                             <div class="card shadow bg-dark">
-                                <img class="card-img-top" src="Chirkut.jpg" alt="Title" / height="300px" width="25%">
+                                <img class="card-img-top rounded" src="Chirkut.jpg" alt="Title" / height="300px" width="25%">
                                 <div class="card-body">
                                     <h4 class="card-title">Project 3</h4>
                                     <p class="card-text">
@@ -101,12 +103,12 @@
             </section><br><br><br>
             <section id="about">
                <div class="container">
-                <div class="row g-0">
-                    <div class="col-lg-4 col-md-12">
+                <div class="row g-1">
+                    <div class="col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
                         <img src="Chirkut.jpg" alt="About" width="300px" height="400px" class="" id="abt">
                     </div>
                     <div class="col-lg-8 col-md-12">
-                        <h1>About Me</h1><br>
+                        <h1 id="abt">About Me</h1>
                         <p class="prg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam iste 
                             quo fuga ut facere repellat. Aperiam, earum laboriosam vel quam, qui, 
                             perferendis minima cupiditate rerum sequi maxime soluta provident.orem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam iste 
@@ -118,16 +120,22 @@
                             <p class="tab-links" onclick="opentab('skills')">Skills</p>
                         </div>
                         <div class="tab-content active-tab" id="edu">
-                            <p>Education</p>
-                            <p>Education</p>
-                            <p>Education</p>
-                            <p>Education</p>
+                            <h5>B.sc in Computer Science<span class="date">March 2020</span></h5>
+                            <h6>Nagindas Khandwala College, Mumbai</h6>
+                            <p>Cgpa - 8.33</p>
+                            <h5>HSC (Class XI)<span class="date">March 2018</span></h5>
+                            <h6>SDIC inter College Sultanpur UP</h6>
+                            <p>Percentage - 75%</p>
                         </div>
                         <div class="tab-content" id="skills">
-                            <p>Skills</p>
-                            <p>Education</p>
-                            <p>Education</p>
-                            <p>Education</p>
+                            <h6 class="cont">Web Developement </h6>
+                            <h6 class="con">- HTML, CSS, JavaScript, Bootstrap, PHP</h6>
+                            <h6 class="cont">Languages </h5>
+                            <h6 class="con">- Java, Python</h6>
+                            <h6 class="cont">Virsion Control </h6>
+                            <h6 class="con">- Git and GitHub</h6>
+                            <h6 class="cont">Database </h6>
+                            <h6 class="con">- MySQL, PostgreSQL</h6>
                         </div>
                     </div>
                 </div>
@@ -136,9 +144,9 @@
             <section id="contact">
                 <div class="container">
                     <div
-                        class="row justify-content-center align-items-center g-3"
+                        class="row d-flex align-items-center justify-content-start g-3"
                     >
-                        <div class="col-md-4 ctn">
+                        <div class="col-md-4 ctn ">
                             <h1>Contact Me</h1>
                             <p><i class="fas fa-paper-plane"></i>ankitpandey@gmail.com</p>
                             <p><i class="fas fa-phone-square-alt"></i>7080706384</p>
