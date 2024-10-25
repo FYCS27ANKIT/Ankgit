@@ -83,12 +83,15 @@ nav .fas{
     box-shadow: 0px 0px 30px 5px rgba(255,255,255,1);
 }
 .fas{
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
+    margin-left:5px;
 }
 .fab{
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
+    padding : 10px;
+    
 }
 @media only screen and (max-width :768px){
     ul li a{
