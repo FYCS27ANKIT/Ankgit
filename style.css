@@ -83,11 +83,11 @@ nav .fas{
     box-shadow: 0px 0px 30px 5px rgba(255,255,255,1);
 }
 .fas{
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
 }
 .fab{
-    font-size: 15px;
+    font-size: 20px;
     color: #fff;
 }
 @media only screen and (max-width :768px){
@@ -96,7 +96,7 @@ nav .fas{
     }
     nav .fas{
         display: block;
-        font-size: 40px;
+        font-size: 30px;
     }
     nav ul{
         background-color: #fff;
