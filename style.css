@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family :'Times New Roman', Times, serif;
 }
 html{
     scroll-behavior: smooth;
@@ -47,7 +48,7 @@ nav ul li a:hover{
 nav .fas{
     display: none;
 }
-#dashboard{
+#home{
     height: 91vh;
     width:100%;
 }
@@ -81,16 +82,25 @@ nav .fas{
     border-radius: 50%;
     box-shadow: 0px 0px 30px 5px rgba(255,255,255,1);
 }
+.fas{
+    font-size: 25px;
+    color: #fff;
+}
+.fab{
+    font-size: 25px;
+    color: #fff;
+}
 @media only screen and (max-width :768px){
     ul li a{
         display: none;
     }
     nav .fas{
         display: block;
-        font-size: 20px;
+        font-size: 40px;
     }
     nav ul{
         background-color: #fff;
+        text-align: center;
         position:fixed;
         top: 0;
         right: -200px;
@@ -114,9 +124,9 @@ nav .fas{
         right: 170px;
         cursor : pointer;
     }
-    #dashboard{
-        margin-top: 35%;
-        height: 80vh;
+    #home{
+        margin-top: 30%;
+        height: 70vh;
         width:100%;
     }
     #dashimg{
@@ -131,6 +141,14 @@ nav .fas{
     }
     .header-text{
         text-align: center;
+        margin-right: 20%;
+    }
+    #projects{
+        margin-top: 20px;
+    }
+    #abt{
+        text-align: center;
+        margin-top: 5px;
     }
 }
 
@@ -173,6 +191,15 @@ nav .fas{
     border-radius: 4px;
     box-shadow: 0px 5px 7px 5px rgba(12,12,12,0.4);
 }
+.cont{
+    font-size: 14px;
+    font-weight: 300;
+}
+.con{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 2%;
+}
 .card{
     background-color: rgb(36, 54, 54);
     color: #fff;
@@ -185,7 +212,13 @@ form input, textarea{
 }
 .form-control{
     background: rgb(36, 54, 54);
+    background-color: rgb(36, 54, 54);
     color: #fff;
+}
+.form-control:focus,.form-control:active.form-control:focus:active{
+    background-color: rgb(36, 54, 54);
+    color: #fff;
+    box-shadow: none;
 }
 footer{
     font-size: large;
@@ -195,6 +228,12 @@ footer{
     height: 5vh;
     background-color: #000000;
     color: #fff;
+}
+.date{
+    font-size: 16px;
+    color: rgb(175, 174, 174);
+    position: absolute;
+    right: 30%;
 }
 
 
