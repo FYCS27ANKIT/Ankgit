@@ -11,19 +11,6 @@ body{
     color: #fff;
 }
 /* rgb(36, 54, 54) */
-nav{*{
-    margin: 0;
-    padding: 0;
-    font-family :'Times New Roman', Times, serif;
-}
-html{
-    scroll-behavior: smooth;
-}
-body{
-    background-color:#242626;
-    color: #fff;
-}
-/* rgb(36, 54, 54) */
 nav{
     background-color: hsl(0, 0%, 0%);
     padding: 10px 10px;
@@ -241,3 +228,5 @@ footer{
     position: absolute;
     right: 30%;
 }
+
+
